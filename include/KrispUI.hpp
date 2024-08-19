@@ -1,3 +1,9 @@
+#pragma warning(disable : 4244)
+#pragma warning(disable : 4189) // 'attribute': local variable is initialized but not referenced
+#pragma warning(disable : 4505)
+#pragma warning(disable : 26495)
+#pragma warning(disable : 26819)
+
 #pragma once
 #ifndef KRISP_UI_H
 #define KRISP_UI_H
