@@ -4,15 +4,14 @@
 #pragma warning(disable : 26495)
 #pragma warning(disable : 26819)
 
-#pragma once
 #ifndef KRISP_UI_H
 #define KRISP_UI_H
 
 // #define INCLUDE_FIND_PARENT_CONTAINER
 
     #include "KrispData.hpp"
+    #include "KrispElements.hpp"
     #include "KrispRenderer.hpp"
-
     #include "KrispInput.hpp"
 
     /**

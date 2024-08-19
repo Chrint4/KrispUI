@@ -3,15 +3,7 @@
 #include <SDL_ttf.h>
 #include <vector>
 
-#include "UIContainer.hpp"
-#include "UILabel.hpp"
-#include "UIButton.hpp"
-#include "UIImage.hpp"
-#include "UINavigationBar.hpp"
-#include "UIContainerList.hpp"
-#include "UIScrollContainer.hpp"
-#include "UISlider.hpp"
-#include "UITextBox.hpp"
+#include "KrispElements.hpp"
 
 namespace KrispUI {
     class KrispRenderer {
