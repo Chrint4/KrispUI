@@ -16,7 +16,9 @@ namespace KrispUI {
     public:
         KrispRenderer() {};
         KrispRenderer(SDL_Renderer* _renderer, SDL_Texture* _outputBuffer, TTF_Font* _font) 
-            : masterRenderer(_renderer), UITextureBuffer(_outputBuffer), font32(_font) {}
+            : masterRenderer(_renderer), UITextureBuffer(_outputBuffer), font32(_font) {
+                SDL_SetTextureBlendMode(UITextureBuffer, SDL_BlendMode::SDL_BLENDMODE_BLEND);
+            }
         ~KrispRenderer() {};
 
         void LoadTextToTexture(SDL_Texture *&texture, SDL_Rect &dstRect, TTF_Font *&font, string message, SDL_Color col, int alignMode, int wrapLength, float scale = 1.0);

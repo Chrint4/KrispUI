@@ -310,7 +310,7 @@
         }
 
         static void INIT_Krisp(int _w, int _h){
-            RootUI = UIContainer("RootUI", 0, 0, _w, _h, SDL_Color {0,255,255,255});
+            RootUI = UIContainer("RootUI", 0, 0, _w, _h, SDL_Color {255,255,255,255});
             // KrispUI::SetSelectedContainer(&RootUI);
             KrispUI_DATA::K_WINDOW_WIDTH = _w;
             KrispUI_DATA::K_WINDOW_HEIHGT = _h;
